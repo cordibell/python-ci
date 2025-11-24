@@ -4,3 +4,5 @@ def add(x: int, y: int) -> int:
          raise TypeError("Both arguments must be integers.")
     return x + y
 
+def div(x:int, y:int) -> int:
+     return x//y
